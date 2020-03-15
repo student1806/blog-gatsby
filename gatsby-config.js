@@ -5,6 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
   pathPrefix: "/blog-gatsby",
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 }
