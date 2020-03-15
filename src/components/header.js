@@ -1,5 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 
-export default props => {
-  return <h1>{props.headerText}</h1>
+export default () => {
+  return (
+    <header>
+      <Link to={"/"}>
+        <h3>My blog</h3>
+      </Link>
+    </header>
+  )
 }
