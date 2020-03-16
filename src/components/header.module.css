@@ -1,0 +1,14 @@
+.header {
+  background: var(--clr-accent);
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  text-decoration: none;
+  color: var(--dark);
+}
