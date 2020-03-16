@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 export default ({ data }) => {
   return (
     <Layout>
-      {/*<Link to="/contact/">Contact</Link>*/}
       <h1>Hello Gatsby!</h1>
       <p>What a world.</p>
       <h3>{data.allMarkdownRemark.totalCount} Posts</h3>

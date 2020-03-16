@@ -1,0 +1,12 @@
+.layout {
+  border: 1px solid black;
+  padding: 10px;
+  width: 80%;
+}
+
+.aside {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  border: 1px solid black;
+}
